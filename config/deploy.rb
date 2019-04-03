@@ -10,6 +10,7 @@ require 'mina/rbenv'  # for rbenv support. (https://rbenv.org)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :application_name, 'deploys'
+set :user, 'ubuntu'
 set :domain, '111.230.9.84'
 set :deploy_to, '/home/ubuntu/var/deploys'
 set :repository, 'git@github.com:Woner1/deploys.git'
